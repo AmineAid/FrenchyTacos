@@ -5,4 +5,5 @@ Application Web pour la tenu d'un restaurent :
 		-Consulatation de l'hstorique des ventes.
 		-Sauvgarde
 		-... 
+
 Crée en Juin 2018
