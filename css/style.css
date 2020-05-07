@@ -1,0 +1,237 @@
+/*'((=============================================================Add group====================================================*/
+#add_gr, #steps, #elements{
+	font-size:19px;
+	padding: 10px;
+	
+}
+.table_title{
+	padding-top: 20px;
+	font-size:30px;
+	font-weight:bold;
+}
+#add_gr #name,{
+	font-size:30px;
+	width:300px;
+}
+#add_gr textarea{
+font-size:30px;
+	width:300px;
+	height: 300px;
+}
+#add_gr input{
+font-size:30px;
+}
+.exemple{
+	font-size: 25px;
+}
+#groups_type{
+	font-size: 30px;
+}
+#groups_type input[type=radio]{
+	width: 50px;
+	height: 50px;
+}
+
+
+/* -------------------------------------------------------Index-------------------------------------------------------------- */
+#indexpage{
+	background:#364652;
+}
+a{
+	text-decoration: none;
+}
+#index{
+position:absolute;
+	margin:auto;
+	top: 0; left: 0;
+	width: 99%;
+	height: 99%;
+	  border-collapse: collapse;
+
+}
+#toprow{
+	
+	height:200px;
+}#bottomrow{
+	border-top: 3px solid white;
+	border-right: 3px solid white;
+	
+}
+#ticket_view{
+	width:900px;
+	border: 5px solid white;
+	background: #869097;
+}
+#groups{
+
+width:300px;
+vertical-align: top;
+text-align: center;	
+border: 5px solid white;
+}
+#quantity_col input{
+	text-align: center;
+font-size: 40px;
+width:100px;
+}
+#group_elements{
+	border: 5px solid white;
+
+	text-align: center;
+}
+
+#elements_table{
+	position: relative;
+	float: top;
+	margin-top: 10px;
+	margin-left:auto; 
+    margin-right:auto;
+text-align: center;
+background:#032B43;
+border: 6px solid white;
+border-radius: 10px;
+
+}
+
+
+#elements_col label{
+	margin-right: auto;
+	margin-left: auto;
+width:200px;
+background: blue;
+}
+#ticket_view input{
+text-align:left;
+color:#1D70A2;
+font-size: 17px;
+
+}
+.ticket_element_quantity{
+	text-align: center;
+width:40px;
+}
+.ticket_element_name{
+width:450px;
+}
+.ticket_element_uprice{
+	text-align: center;
+width:80px;
+}
+.ticket_element_price{
+	text-align: center;
+width:80px;
+}
+#elements_row{
+}
+.choice{
+
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	color:white;
+
+	padding:30px 15px;
+	margin:10px;
+	background:#1D70A2;
+	border:2px solid white;
+	border-radius: 9px;
+}
+label input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+label input .choice{ /* IMAGE STYLES */
+	
+  cursor:pointer;
+  border:2px solid transparent;
+}
+@keyframes blink { 
+   50% { background-color: #87A330;border-color: #243010; } 
+}
+
+label input:checked + .choice{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:1px solid #243010 ;
+  
+  background: #87A330 !important;
+  color:white !important;
+  /*animation: blink .3s step-end infinite alternate;*/
+/*
+  	background-image: url('../img/selected.png')!important;
+  	background-size: 35px !important;
+    background-repeat: no-repeat !important;
+    background-position: top right !important;
+    */
+}
+#element_ball{
+	float:left;
+	top:0px;right:0px;
+  border-radius: 50px;
+  border: none;
+  width: 20px;
+  height: 20px;
+}
+
+#validate_col{
+
+}
+#quantity_col input{
+	margin:20px;
+}
+.col_title{
+	text-align: center;
+	font-size: 30px;
+	font-weight: ;
+	text-decoration: underline;
+	color:white;
+}
+#groups_table{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+
+}#groups_table td{
+padding:10px;
+}
+.group_name{
+
+	width:120px;
+	height: 100px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color:white;
+	padding:10px;
+	background:#1D70B2;
+	border:2px solid white;
+	border-radius: 9px;
+}
+
+#menu{
+	border: 5px solid white;
+}
+#adition{
+	width:200px;
+font-size: 50px;
+color: white;
+}
+#total{
+	width:200px;
+font-size: 50px;
+}
+#onTop{
+	position:absolute;
+	margin:auto;
+	top: 0; left: 0; bottom: 0; right: 0;
+	height:70%;
+	width:80%;
+	background:#DECBB7;
+	border:4px solid white;
+	border-radius: 10px;
+
+}
+#onTopIframe{
+width: 100%;
+height: 100%;
+border:none;
+	}
